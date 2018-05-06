@@ -9,7 +9,7 @@
         Tech News Reader by yourself
       </h2>
       <div class="links">
-        <a href="/feed/" class="button" >Signin with Google</a>
+        <a href="/feeds/" class="button" >Signin with Google</a>
       </div>
     </div>
   </section>
