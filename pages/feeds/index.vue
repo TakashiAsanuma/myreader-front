@@ -1,7 +1,18 @@
 <template>
   <section class="feed">
     <div>
-      <h2> Feed {{ feeds }}</h2>
+      <h2> Feed </h2>
+      <div v-for="feed in feeds" :key="feed.id">
+      <article>
+      <dl>
+        <dt><a v-bind:href="feed.url">{{ feed.title }}</a></dt>
+          <dd>
+            {{ feed.site_name }}
+          </dd>
+          <dd>{{ feed.summary }}</dd>
+      </dl>
+      </article>
+      </div>
     </div>
   </section>
 </template>
